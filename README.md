@@ -1,4 +1,4 @@
-# Mimic Fields
+# Mimic Fields (work in progress)
 
 A mimic field takes its value from one or more prioritized fields on the same entity.
 
@@ -23,6 +23,10 @@ For example, if a site has a highlight image we may have several fields.
 Then, if you want to configure the metadata module, you tell it to use
 the image_twitter field and the editor can set this in one of three places
 depending on whether or not it needs to be unique to twitter.
+
+This becomes even more interesting when you add crops in that one source image
+could potentially provide the output for a wide range of aspect ratios 
+(4:3, 16:9, 2:1, 3:4, etc).
 
 It's progressive editing.
 
