@@ -24,11 +24,18 @@ Then, if you want to configure the metadata module, you tell it to use
 the image_twitter field and the editor can set this in one of three places
 depending on whether or not it needs to be unique to twitter.
 
+It's progressive editing.
+
+## Opportunities
+
 This becomes even more interesting when you add crops in that one source image
 could potentially provide the output for a wide range of aspect ratios 
-(4:3, 16:9, 2:1, 3:4, etc).
+(4:3, 16:9, 2:1, 3:4, etc)... but it doesn't necessarily have to because
+you can provide fields that target the requisite sizes exactly (but fallback).
 
-It's progressive editing.
+With image fields, this can also help deduplicate content in the absence of a 
+media browser since people shouldn't have to upload the same media to the same 
+entity multiple times.
 
 ## Why God? Why? 
 
@@ -54,4 +61,3 @@ showing on the twitter cards? What's going on?
  
 **New Writer:** What? No, that's way to much work. I just want one field 99.9%
 of the time.
-
